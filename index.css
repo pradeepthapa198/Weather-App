@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:burlywood;
+    position: relative;
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    height: 550px;
+    width: 500px;
+    background-color: aqua;
+    margin-top: 30px;
+    position: absolute;
+    top: 6%;
+    left: 35%;
+    border: none;
+    border-radius: 30px;
+}
+.input{
+    height: 40px;
+    width: 350px;
+    margin-left: 70px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    margin-right: -60px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+ 
+.search-box button{
+    height:40px;
+    width: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    
+
+}
+.search-box button:hover{
+    background-color:bisque;
+    transition: all 0.5s;
+}
+.image-icons img{
+    height: 180px;
+    margin-left: 150px;
+}
+.temp h1{
+    font-size: 60px;
+    margin-top: -10px;
+}
+.city h1{
+    font-size: 50px;
+    
+}
+.humwind{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+.wind p{
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container h1{
+        color: red;
+     }
+}
